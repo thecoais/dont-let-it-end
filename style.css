@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'HowardThin';
+  src: url('assets/HowardThin Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  font-family: 'HowardThin', monospace;
+  overflow: hidden;
+}
+
+#count {
+  font-size: 10vw;
+  display: flex;
+}
+
+.digit {
+  display: inline-block;
+  width: 0.425em;
+  text-align: center;
+}
+
+.comma {
+  display: inline-block;
+  width: 0.15em;
+  text-align: center;
+}
