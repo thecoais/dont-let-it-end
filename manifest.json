@@ -1,0 +1,9 @@
+{
+  "name": "Don't let it end.",
+  "short_name": "Let it end.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait"
+}
